@@ -260,7 +260,7 @@ else:
         if st.button("Ejecutar Análisis 📊"):
             if ticket_text:
                 with st.status("Analizando ticket...", expanded=True) as status:
-                    st.write("Cargando modelos BART y BETO...")
+                    st.write("Cargando modelos mDeBERTa y BETO...")
                     res = classify_ticket(ticket_text)
                     status.update(label="¡Análisis completado!", state="complete", expanded=False)
                 
