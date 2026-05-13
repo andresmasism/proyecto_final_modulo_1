@@ -4,8 +4,9 @@ import torch
 # Cargamos los pipelines necesarios
 # 1. Zero-shot para categorías
 classifier = pipeline("zero-shot-classification", 
-                      model="facebook/bart-large-mnli",
-                      device=0 if torch.cuda.is_available() else -1)
+                      model="MoritzLaurer/mDeBERTa-v3-base-mnli-xnli",
+                      device=0 if torch.cuda.is_available() else -1
+                      )
 
 # 2. Análisis de sentimiento (BETO es excelente para español)
 sentiment_analyzer = pipeline("sentiment-analysis", 
