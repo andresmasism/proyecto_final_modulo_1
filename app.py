@@ -93,7 +93,7 @@ with left:
         user_api_key = st.text_input(
             "Gemini API Key:",
             type="password",
-            help="Si dejas esto vacío, solo podras usar el System Ticketing."
+            help="Si dejas esto vacío, solo podras usar el System Ticketing. Crea una API Key en Google AI Studio y pégala aquí para acceder a todas las funcionalidades."
         )
 
         st.divider()
