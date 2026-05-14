@@ -73,7 +73,7 @@ Sigue estos pasos para ejecutar el proyecto en tu máquina:
 
 - **🚀 Interfaz Principal**
 
-![Main Interface](https://raw.githubusercontent.com/andresmasism/proyecto_final_modulo_1/refs/heads/master/assets/Landing%20Page.png) 
+![Main Interface](https://raw.githubusercontent.com/andresmasism/proyecto_final_modulo_1/refs/heads/master/assets/Pagina%20bienvenida.png)
 
 - **⚙️ Configuración**
 
