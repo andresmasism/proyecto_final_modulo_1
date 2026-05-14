@@ -107,7 +107,6 @@ with left:
 
 # --- ENCABEZADO ---
 st.title("AI Assistant: Asistente Multitarea")
-st.caption("Inteligencia Artificial Integrada para Productividad y Creatividad")
 
 # --- ESTADO INICIAL ---
 if "show_tabs" not in st.session_state:
@@ -126,8 +125,36 @@ if "show_tabs" not in st.session_state:
         unsafe_allow_html=True
     )
 
-    st.write("")
-    st.write("")
+    st.markdown(
+        """
+        <div style='text-align: center; font-size: 18px;'>
+        Inteligencia Artificial integrada para productividad y creatividad.
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
+    # =====================================================
+    # NOTA API KEY
+    # =====================================================
+
+    st.markdown(
+        """
+        <div style='
+            text-align: center;
+            padding: 12px;
+            border-radius: 10px;
+            background-color: rgba(255,255,255,0.08);
+            margin-top: 15px;
+            margin-bottom: 25px;
+        '>
+            💡 Para utilizar todas las funcionalidades de IA,
+            genera una API Key gratuita en Google AI Studio
+            y agrégala desde el botón ⚙️ de configuración.
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
 
 # =========================================================
 # SECCIONES CENTRADAS
