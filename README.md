@@ -2,7 +2,7 @@
 
 **1. Enlaces del Proyecto**
 - **💻 Código Fuente:** [Repositorio GitHub](https://github.com/andresmasism/proyecto_final_modulo_1)
-- **🎈 App desplegada en Streamlit:** [Streamlit Cloud]](https://proyectofinalmodulo1-ai-assistant.streamlit.app)
+- **🎈 App desplegada en Streamlit:** [Streamlit Cloud](https://proyectofinalmodulo1-ai-assistant.streamlit.app)
 - **🚀 App Desplegada en HuggingFace:** [Hugging Face Spaces](https://huggingface.co/spaces/andresmasism/AI_Asistente_Multitarea)
 
 **2. Objetivo del Proyecto**
